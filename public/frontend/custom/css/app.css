@@ -271,6 +271,7 @@ img {
 
 .line-text {
     position: relative;
+    margin-block: 20px;
 }
 .line-text::before {
     content: '';

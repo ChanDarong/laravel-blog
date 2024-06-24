@@ -77,7 +77,26 @@
                     </span>
                 </div>
 
-                <div class="comment"></div>
+                <div class="comment">
+                    {{-- <script src="https://giscus.app/client.js"
+                            data-repo="ChanDarong/laravel-blog"
+                            data-repo-id="R_kgDOMLbyJQ"
+                            data-category="Ideas"
+                            data-category-id="DIC_kwDOMLbyJc4CgMnZ"
+                            data-mapping="pathname"
+                            data-strict="1"
+                            data-reactions-enabled="1"
+                            data-emit-metadata="1"
+                            data-input-position="top"
+                            data-theme="preferred_color_scheme"
+                            data-lang="en"
+                            data-loading="lazy"
+                            crossorigin="anonymous"
+                            async>
+                    </script> --}}
+                    <script defer src="https://thecommenthub.com/js/thcommenthub.js"></script>
+                    <div id="thecommenthub-comment"></div>
+                </div>
             </div>
         </div>
     </div>
